@@ -2,7 +2,7 @@
   "name": "typo3-fluid-snippets",
   "displayName": "TYPO3 Fluid Snippets",
   "description": "TYPO3 Fluid Snippets for VSCode/VSCodium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "pagea-dev",
   "icon": "images/icon.png",
   "license": "MIT",
