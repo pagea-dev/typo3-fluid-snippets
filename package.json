@@ -1,10 +1,15 @@
 {
   "name": "typo3-fluid-snippets",
-  "displayName": "typo3-fluid-snippets",
+  "displayName": "TYPO3 Fluid Snippets",
   "description": "TYPO3 Fluid Snippets for VSCode/VSCodium",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "pagea-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagea-dev/typo3-fluid-snippets"
+  },
   "engines": {
-    "vscode": "^1.116.0"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Snippets"
@@ -12,7 +17,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "'html', 'fluid.html'",
+        "language": "html",
         "path": "./snippets/snippets.code-snippets"
       }
     ]

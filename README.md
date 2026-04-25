@@ -1,65 +1,119 @@
-# typo3-fluid-snippets README
+# TYPO3 Fluid Snippets
 
-This is the README for your extension "typo3-fluid-snippets". After writing up a brief description, we recommend including the following sections.
+Fluid Snippets provider for [TYPO3 Fluid](https://docs.typo3.org/other/typo3fluid/fluid/main/en-us/) ViewHelpers in VSCode and VSCodium.
+This Extension is still work in progress - if you want to provide your own templates, [create a Pull Request via GitHub](https://github.com/pagea-dev/typo3-fluid-snippets/pulls)
+This Extension is 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+All snippets are available in both **tag syntax** and **inline syntax**.
 
-For example if there is an image subfolder under your extension project workspace:
+| Prefix | ViewHelper |
+|---|---|
+| `fAlias` | `<f:alias>` |
+| `fBase` | `<f:base>` |
+| `fCacheDisable` | `<f:cache.disable>` |
+| `fCacheStatic` | `<f:cache.static>` |
+| `fCacheWarmup` | `<f:cache.warmup>` |
+| `fCobject` | `<f:cObject>` |
+| `fComment` | `<f:comment>` |
+| `fCount` | `<f:count>` |
+| `fCycle` | `<f:cycle>` |
+| `fDebug` | `<f:debug>` |
+| `fFlashmessages` | `<f:flashMessages>` |
+| `fFor` | `<f:for>` |
+| `fIfThenElse` / `fIf` / `fThen` / `fElse` | `<f:if>` |
+| `fImage` | `<f:image>` |
+| `fInline` | `<f:inline>` |
+| `fLayout` | `<f:layout>` |
+| `fSection` | `<f:section>` |
+| `fRender` | `<f:render>` |
+| `fSecurityIfAuthenticated` / `fSecurityIfAuthenticatedThenElse` | `<f:security.ifAuthenticated>` |
+| `fSpaceless` | `<f:spaceless>` |
+| `fSwitch` / `fCase` | `<f:switch>` |
+| `fTranslate` | `<f:translate>` |
+| `fVariable` | `<f:variable>` |
+| `fForm` | `<f:form>` |
+| `fFormButton` | `<f:form.button>` |
+| `fFormCheckbox` | `<f:form.checkbox>` |
+| `fFormHidden` | `<f:form.hidden>` |
+| `fFormPassword` | `<f:form.password>` |
+| `fFormRadio` | `<f:form.radio>` |
+| `fFormSubmit` | `<f:form.submit>` |
+| `fFormTextarea` | `<f:form.textarea>` |
+| `fFormTextfield` | `<f:form.textfield>` |
+| `fFormUpload` | `<f:form.upload>` |
+| `fFormatBytes` | `<f:format.bytes>` |
+| `fFormatCase` | `<f:format.case>` |
+| `fFormatCdata` | `<f:format.cdata>` |
+| `fFormatCrop` | `<f:format.crop>` |
+| `fFormatCurrency` | `<f:format.currency>` |
+| `fFormatDate` | `<f:format.date>` |
+| `fFormatHtml` | `<f:format.html>` |
+| `fFormatHtmlentitiesdecode` | `<f:format.htmlentitiesDecode>` |
+| `fFormatHtmlspecialchars` | `<f:format.htmlspecialchars>` |
+| `fFormatNl2br` | `<f:format.nl2br>` |
+| `fFormatNumber` | `<f:format.number>` |
+| `fFormatPrintf` | `<f:format.printf>` |
+| `fFormatRaw` | `<f:format.raw>` |
+| `fFormatStriptags` | `<f:format.stripTags>` |
+| `fFormatUrlencode` | `<f:format.urlencode>` |
+| `fLinkAction` | `<f:link.action>` |
+| `fLinkEmail` | `<f:link.email>` |
+| `fLinkExternal` | `<f:link.external>` |
+| `fLinkPage` | `<f:link.page>` |
+| `fLinkTypolink` | `<f:link.typolink>` |
+| `fUriAction` | `<f:uri.action>` |
+| `fUriEmail` | `<f:uri.email>` |
+| `fUriExternal` | `<f:uri.external>` |
+| `fUriImage` | `<f:uri.image>` |
+| `fUriPage` | `<f:uri.page>` |
+| `fUriTypolink` | `<f:uri.typolink>` |
+| `fNamespace` | Fluid namespace attribute |
+| `fhtml` | `<html>` with Fluid namespace |
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Append `Inline` to any prefix for the inline syntax variant, e.g. `fIfInline` → `{f:if(...)}`.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- TYPO3 13 or higher
+- VSCode `^1.90.0` or VSCodium equivalent
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Via Open VSX (VSCodium)
 
-For example:
+Search for `TYPO3 Fluid Snippets` in the Extensions tab.
 
-This extension contributes the following settings:
+### Via Marketplace (VSCode)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Search for `TYPO3 Fluid Snippets` in the Extensions tab or install via:
 
-## Known Issues
+```
+ext install pagea-dev.typo3-fluid-snippets
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### Manual (.vsix)
 
-## Release Notes
+Download the latest `.vsix` from the [Releases](https://github.com/pagea-dev/typo3-fluid-snippets/releases) page and install via:
 
-Users appreciate release notes as you update your extension.
+```
+Extensions → ··· → Install from VSIX...
+```
 
-### 1.0.0
+## Contributing
 
-Initial release of ...
+Pull requests are welcome. For larger changes please open an issue first.
 
-### 1.0.1
+1. Fork the repository
+2. Create your branch: `git checkout -b feat/my-snippet`
+3. Commit your changes: `git commit -m 'feat: add f:myViewHelper snippet'`
+4. Push and open a Pull Request
 
-Fixed issue #.
+## License
 
-### 1.1.0
+[MIT](LICENSE)
 
-Added features X, Y, and Z.
+## Acknowledgements
 
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Inspired by the original (but outdated) [typo3-fluid-snippets](https://marketplace.visualstudio.com/items?itemName=febley.typo3-fluid-snippets) extension by febLey.
