@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "typo3-fluid-snippets" extension will be documented in this file.
+## [Releases]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+### 1.0.0 - First Version
+- Added License, Readme and Package configuration
+- Added Fluid Snippets
