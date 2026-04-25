@@ -5,6 +5,9 @@ If you want to provide your own templates, [create a Pull Request via GitHub](ht
 If you want have problems or ideas, [write an Issue via GitHub](https://github.com/pagea-dev/typo3fluid-snippets/issues)<br>
 You can find the source code on [GitHub](https://github.com/pagea-dev/typo3-fluid-snippets)
 
+Download for VSCode [from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=pagea-dev.typo3fluid-snippets)<br>
+Download for VSCodium [from Open-VSX.org](https://open-vsx.org/extension/pagea-dev/typo3fluid-snippets)
+
 ## Features
 
 All snippets are available in both **tag syntax** and **inline syntax**.
