@@ -29,6 +29,38 @@
     ],
     "description": "TYPO3 Fluid Inline | {f:alias(})}"
   },
+  "f:asset.css (file)": {
+    "prefix": ["fAssetCss", "fasscf"],
+    "body": [
+      "<f:asset.css identifier=\"${1:identifier123}\" href=\"EXT:$2\" />"
+    ],
+    "description": "TYPO3 Fluid | <f:asset.css> (file)"
+  },
+  "f:asset.css (inline)": {
+    "prefix": ["fAssetCssInline", "fassci"],
+    "body": [
+      "<f:asset.css identifier=\"${1:identifier123}\">",
+      "\t$2",
+      "</f:asset.css>"
+    ],
+    "description": "TYPO3 Fluid | <f:asset.css> (inline style)"
+  },
+  "f:asset.script (file)": {
+    "prefix": ["fAssetScriptFile", "fassjsf"],
+    "body": [
+      "<f:asset.script async=\"0\" identifier=\"${1:identifier123}\" src=\"EXT:$2\" />"
+    ],
+    "description": "TYPO3 Fluid | <f:asset.script> (file)"
+  },
+  "f:asset.script (inline)": {
+    "prefix": ["fAssetScriptInline", "fassjsi"],
+    "body": [
+      "<f:asset.script identifier=\"${1:identifier987}\">",
+      "\t$2",
+      "</f:asset.script>"
+    ],
+    "description": "TYPO3 Fluid | <f:asset.script> (inline script)"
+  },
   "f:base": {
     "prefix": "fBase",
     "body": [

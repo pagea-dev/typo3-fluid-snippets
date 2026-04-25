@@ -1,8 +1,8 @@
 # TYPO3 Fluid Snippets
 
-Fluid Snippets provider for [TYPO3 Fluid](https://docs.typo3.org/other/typo3fluid/fluid/main/en-us/) ViewHelpers in VSCode and VSCodium.
-This Extension is still work in progress - if you want to provide your own templates, [create a Pull Request via GitHub](https://github.com/pagea-dev/typo3-fluid-snippets/pulls)
-
+Fluid Snippets provider for [TYPO3 Fluid](https://docs.typo3.org/other/typo3fluid/fluid/main/en-us/) ViewHelpers in VSCode and VSCodium.<br>
+This Extension is still work in progress - if you want to provide your own templates, [create a Pull Request via GitHub](https://github.com/pagea-dev/typo3-fluid-snippets/pulls)<br>
+You can find the source code on [GitHub](https://github.com/pagea-dev/typo3-fluid-snippets)
 
 ## Features
 
@@ -11,6 +11,8 @@ All snippets are available in both **tag syntax** and **inline syntax**.
 | Prefix | ViewHelper |
 |---|---|
 | `fAlias` | `<f:alias>` |
+| `fAssetCss` / `fAssetCssInline` | `<f:asset.css>` |
+| `fAssetScriptFile` / `fAssetScriptInline` | `<f:asset.script>` |
 | `fBase` | `<f:base>` |
 | `fCacheDisable` | `<f:cache.disable>` |
 | `fCacheStatic` | `<f:cache.static>` |
