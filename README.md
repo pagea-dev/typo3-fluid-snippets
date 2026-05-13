@@ -34,7 +34,7 @@ All snippets are available in both **tag syntax** and **inline syntax**.
 | `fLayout` | `<f:layout>` |
 | `fSection` | `<f:section>` |
 | `fRender` | `<f:render>` |
-| `fSecurityIfAuthenticated` / `fSecurityIfAuthenticatedThenElse` | `<f:security.ifAuthenticated>` |
+| `fSecurityIfAuthenticated` / `fSecurityIfAuthenticatedThenElse` | `<f:be.security.ifAuthenticated>` |
 | `fSpaceless` | `<f:spaceless>` |
 | `fSwitch` / `fCase` | `<f:switch>` |
 | `fTranslate` | `<f:translate>` |

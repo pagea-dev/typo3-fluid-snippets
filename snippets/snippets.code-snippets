@@ -658,21 +658,21 @@
       "\t<f:debug inline=\"0\">{${1:_all}}</f:debug>",
       "</f:be.security.ifAuthenticated>"
     ],
-    "description": "TYPO3 Fluid | <f:security.ifAuthenticated>"
+    "description": "TYPO3 Fluid | <f:be.security.ifAuthenticated>"
   },
-  "f:security.ifAuthenticated Then/Else": {
+  "f:be.security.ifAuthenticated Then/Else": {
     "prefix": "fSecurityIfAuthenticatedThenElse",
     "body": [
-      "<f:security.ifAuthenticated>",
+      "<f:be.security.ifAuthenticated>",
       "\t<f:then>",
       "\t\t$1",
       "\t</f:then>",
       "\t<f:else>",
       "\t\t$2",
       "\t</f:else>",
-      "</f:security.ifAuthenticated>"
+      "</f:be.security.ifAuthenticated>"
     ],
-    "description": "TYPO3 Fluid | <f:security.ifAuthenticated> with then/else"
+    "description": "TYPO3 Fluid | <f:be.security.ifAuthenticated> with then/else"
   },
   "f:switch": {
     "prefix": "fSwitch",

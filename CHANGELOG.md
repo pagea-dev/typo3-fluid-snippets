@@ -2,6 +2,9 @@
 
 ## [Releases]
 
+### 1.0.3 - Bugfix
+- Fixed F:Debug Viewhelper with BE User Check
+
 ### 1.0.2 - Changes for publishing
 - Switched to new name and display name, because of the rules of vscode marketplace
 
